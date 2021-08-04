@@ -7,11 +7,11 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int c=0;
-        for (int i=1; i <= n; i++) {
-            c += i;
+        int inpNum = sc.nextInt();
+        int sum = 0;
+        for (int i = 1; i <= inpNnum; i++) {
+            sum += i;
         }
-        System.out.println(c);
+        System.out.println(sum)
     }
 }
